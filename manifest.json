@@ -1,9 +1,0 @@
-{
-  "name": "Ravencore",
-  "short_name": "Ravencore",
-  "start_url": ".",
-  "display": "standalone",
-  "background_color": "#000000",
-  "description": "Ein Licht im Dunkel – Ravencore lebt.",
-  "icons": []
-}
