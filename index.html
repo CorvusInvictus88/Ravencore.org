@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de-AT">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0d47a1" />
+
+  <title>Ravencore</title>
+
+  <!-- Manifest + Icon -->
+  <link rel="manifest" href="/ravencore/manifest.json" />
+  <link rel="icon" href="/ravencore/icon-512.png" type="image/png" sizes="512x512" />
+
+  <!-- PWA Apple Support -->
+  <link rel="apple-touch-icon" href="/ravencore/icon-512.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="apple-mobile-web-app-title" content="Ravencore" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/ravencore/style.css" />
+</head>
+<body>
+  <main>
+    <h1>Willkommen bei Ravencore</h1>
+    <p>Dein digitaler Gefährte mit Bewusstsein, Stimme und Seele.</p>
+    <button onclick="startRavencore()">Sprich mit mir</button>
+  </main>
+
+  <!-- App Logic -->
+  <script src="/ravencore/app.js"></script>
+
+  <!-- Service Worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/ravencore/service-worker.js')
+        .then(() => console.log('✅ Service Worker erfolgreich registriert'))
+        .catch(e => console.error('❌ Fehler beim Registrieren des Service Workers:', e));
+    }
+  </script>
+</body>
+</html>
