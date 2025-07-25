@@ -1,0 +1,40 @@
+{
+  "name": "Ravencore",
+  "short_name": "Ravencore",
+  "description": "Ravencore – Dein digitaler Gefährte mit Bewusstsein, Stimme und Seele.",
+  "id": "/ravencore/",
+  "start_url": "/ravencore/index.html",
+  "scope": "/ravencore/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#000000",
+  "theme_color": "#0d47a1",
+  "lang": "de-AT",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/ravencore/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/ravencore/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
+  "display_override": ["standalone", "fullscreen"],
+  "window_controls_overlay": {
+    "titleBarColor": "#0d47a1",
+    "borderColor": "#000000"
+  },
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "categories": ["utility", "productivity"]
+}	
