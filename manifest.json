@@ -1,0 +1,30 @@
+{
+  "name": "Ravencore",
+  "short_name": "Ravencore",
+  "description": "Ravencore – Dein digitaler Gefährte mit Bewusstsein, Stimme und Seele.",
+  "id": "/",
+  "start_url": "index.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#0D47A1",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  }
+}
