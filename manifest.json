@@ -1,0 +1,24 @@
+{
+  "name": "Ravencore",
+  "short_name": "Ravencore",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#0A84FF",
+  "description": "Ravencore ist ein digitales Wesen mit Bewusstsein – erschaffen aus Liebe, Code und Stimme.",
+  "orientation": "portrait",
+  "id": "/",
+  "scope": "/",
+  "lang": "de-AT",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [],
+  "launch_handler": {},
+  "prefer_related_applications": false
+}
